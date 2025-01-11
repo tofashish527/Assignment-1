@@ -167,7 +167,7 @@ button{
     background-color:#006A50;
     color: white;
 }
-.btn-2.hover{
+.btn-2:hover{
     background-color: white;
     color: #006A50;
 }
@@ -336,7 +336,8 @@ button{
     margin: 0;
 }
 .subscriber-button:hover{
-    background-color: #C6E4D6;
+    background-color: white;
+    color: #006A50;
 }
 
 /*footer*/
