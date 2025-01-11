@@ -23,6 +23,10 @@ body {
     color: #006A50;
     border-radius: 8px ;
 }
+.sign:hover{
+    background-color: #006A50;
+    color: white;
+}
 
 /*banner*/
 .banner{
@@ -75,6 +79,10 @@ body {
     color: white;
     border-radius: 8px;
     border: none;
+}
+.explore:hover{
+    background-color: white;
+    color: #006A50;
 }
 
 /*Future-vision*/
@@ -149,12 +157,27 @@ button{
 }
 .btn-1{
     background-color: #5490F5;
+    color: white;
+}
+.btn-1:hover{
+    background-color: white;
+    color: #5490F5;
 }
 .btn-2{
     background-color:#006A50;
+    color: white;
+}
+.btn-2.hover{
+    background-color: white;
+    color: #006A50;
 }
 .btn-3{
     background-color:#FFC239;
+    color: white;
+}
+.btn-3:hover{
+     background-color: white;
+     color: #FFC239;
 }
 
 /*quotes*/
@@ -226,6 +249,10 @@ button{
     margin-top: 15px;
     border: none;
 }
+.connect:hover{
+    color:#006A50;
+    background-color:#C6E4D6;
+}
 
 /*donation*/
 .donate{
@@ -245,16 +272,21 @@ button{
     height: auto;
     display: flex;
     justify-content: space-around;
-    gap: 24px;
+    gap: 20px;
     padding-top: 20px;
 }
 .taka-1{
     width: 240px;
-    height: 120px;
+    height: 60px;
     background-color: white;
-    border-radius: 20px;
+    color: #006A50;
+    border-radius: 16px;
     text-align: center;
-    
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.taka-1:hover{
+    background-color: #C6E4D6;
 }
  input[type="text"]{
     height: 24px;
@@ -302,6 +334,9 @@ button{
     padding: 15px 20px;
     border-radius:0 5px 5px 0;
     margin: 0;
+}
+.subscriber-button:hover{
+    background-color: #C6E4D6;
 }
 
 /*footer*/
