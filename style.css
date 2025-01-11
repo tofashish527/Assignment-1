@@ -87,6 +87,43 @@ body {
     color: #006A50;
 }
 
+/*piller*/
+.piller{
+    width: 80%;
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 40px; 
+}
+.container{
+    display: flex;
+    gap: 24px;
+    height: 377;
+    width:266;
+    padding-top: 20px;
+}
+.pill img{
+    position: top left;
+    padding-bottom: 13px;
+}
+.pill{
+    padding: 30px;
+    border-radius: 18px;
+    background-color: white;
+    height: 190px;
+    width: 300px;
+    color:  rgba(14, 14, 14, 0.5);
+    border: 1px solid gainsboro ;
+}
+.pill-title{
+    color: #0E0E0E;
+    font-weight: bold;
+}
+.pill-description{
+    text-align: justify;
+}
+
 /*Future-vision*/
 .vision{
     width:80%;
@@ -192,6 +229,7 @@ button{
     margin: 0 auto;
     padding: 15px;
     margin-bottom: 30px;
+    border: 1px solid gainsboro ;
     
 }
 /**imp**/
