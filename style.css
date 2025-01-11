@@ -27,7 +27,7 @@ body {
 /*banner*/
 .banner{
     width:80%;
-    height: 500;
+    height: 450px;
     background-color: #C6E4D6;
     margin: 0 auto;
     border-radius: 20px;
@@ -35,6 +35,7 @@ body {
 .h5-col{
     color: rgba(14, 14, 14, 0.5);
     padding-bottom: 5px;
+    padding-top: 4px;
 }
 .h1-col{
     color:black;
@@ -156,6 +157,26 @@ button{
     background-color:#FFC239;
 }
 
+/*quotes*/
+.quote{
+    background-color: white;
+    width: 78%;
+    height: 150px;
+    border-radius: 15px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+/**imp**/
+.quote-img{
+    position: absolute;
+    width: 44px;
+    height: 54px;
+}
+
+
 /*recent-news*/
 .recent{
     width: 80%;
@@ -267,7 +288,7 @@ button{
     align-items: center;
     padding-top: 20px;
 }
-/* imp */
+/*** imp ***/
 .email-input{
     width: 40%;
     padding: 15px;
@@ -281,6 +302,23 @@ button{
     padding: 15px 20px;
     border-radius:0 5px 5px 0;
     margin: 0;
+}
+
+/*footer*/
+footer{
+    background-color: white;
+    text-align: center;
+}
+hr{
+    width: 50%;
+    margin: 0 auto;
+}
+.icons{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
 }
 
 
